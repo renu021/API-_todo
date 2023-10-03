@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@1&family=Montserrat:ital,wght@1,300&family=Mooli&family=Outfit:wght@300;400;700;800&family=Poppins:ital,wght@0,100;0,600;0,700;1,200;1,300;1,600;1,700&family=Roboto+Condensed:ital,wght@0,400;1,300;1,400&family=Roboto+Flex:opsz@8..144&display=swap');
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  /* background-color: #152044; */
+  background-image: url(./Assests/to.avif);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  /* color:#fff; */
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+  height: 80vh;
+  /* border: 1px solid rgb(206, 127, 8); */
+  border-radius: 10px;
+  padding: 20px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.todoForm{
+  display: flex;
+  justify-content: space-around;
+  width: 450px;
+}
+
+input{
+  width: 80%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  color: #0f1321;
+  font-size: 900;
+}
+
+button{
+  border: none;
+  padding: 10px;
+  width: 13%;
+  border-radius: 6px;
+  margin: 0 5px;
+  /* background-color:#282828; */
+  background-color: #bb2b6a;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+button:hover{
+  background-color: #7e7571;
+}
+
+.allTodos{
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+  color: #fff;
+  overflow-y: auto;
+}
+
+.singleTodo{
+  background-color:#2691fd;
+  width: 450px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+
+}
+
+.todoText{
+  flex: 1;
+}
